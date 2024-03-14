@@ -15,4 +15,4 @@ Este projeto foi desenvolvido como parte de um exercício de prática para aprim
 
 ## License
 
-This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/KaiqueCV/Disney-Clone/blob/e69bb58f051874185528dfabd7cfa140bd880688/LICENSE).
+This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/KaiqueCV/Disney-Clone/blob/e69bb58f051874185528dfabd7cfa140bd880688/LICENSE).# Disney-Clone
