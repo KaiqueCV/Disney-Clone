@@ -13,6 +13,3 @@ Este projeto foi desenvolvido como parte de um exercício de prática para aprim
 - Gulp: Utilizado como um task runner para automatizar tarefas de desenvolvimento, como compilação de Sass, minificação de arquivos CSS e JavaScript, entre outros.
 - JavaScript: Utilizado para adicionar interatividade e funcionalidades dinâmicas ao site.
 
-## License
-
-This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/KaiqueCV/Disney-Clone/blob/e69bb58f051874185528dfabd7cfa140bd880688/LICENSE).# Disney-Clone
