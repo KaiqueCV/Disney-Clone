@@ -13,4 +13,4 @@ Este projeto foi desenvolvido como parte de um exercício de prática para aprim
 - Gulp: Utilizado como um task runner para automatizar tarefas de desenvolvimento, como compilação de Sass, minificação de arquivos CSS e JavaScript, entre outros.
 - JavaScript: Utilizado para adicionar interatividade e funcionalidades dinâmicas ao site.
 
-# Disney-Clone
+
