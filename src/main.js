@@ -6,6 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const heroSection = document.querySelector('.hero');
     const alturaHero = heroSection.clientHeight;
 
+    gulp.task('build', () => {
+        return gulp.src('src/**/*')
+        .pipe(gulp.dest('public'));
+    });
+
     window.addEventListener('scroll', function() {
         const posicaoAtual = window.scrollY;
 
@@ -67,7 +72,3 @@ function escondeTodasAbas() {
     }
 }
 
-gulp.task('build', () => {
-    return gulp.src('src/**/*')
-    .pipe(gulp.dest('public'));
-});
