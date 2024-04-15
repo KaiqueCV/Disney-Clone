@@ -3,7 +3,7 @@ const sass = require('gulp-sass')(require('sass'));
 const imagemin = require('gulp-imagemin');
 
 gulp.task('build', () => {
-    return gulp.src('src/**/*')
+    return gulp.src('./dist/**/*')
     .pipe(gulp.dest('public'));
 });
 
