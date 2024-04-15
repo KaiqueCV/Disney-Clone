@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const buttons = document.querySelectorAll('[data-tab-button]');
     const questions = document.querySelectorAll('[data-faq-question]');
+    const gulp = require('gulp');
 
     const heroSection = document.querySelector('.hero');
     const alturaHero = heroSection.clientHeight;
@@ -65,3 +66,8 @@ function escondeTodasAbas() {
         tabsContainer[i].classList.remove('shows__list--is-active');
     }
 }
+
+gulp.task('build', () => {
+    return gulp.src('src/**/*')
+    .pipe(gulp.dest('public'));
+});
