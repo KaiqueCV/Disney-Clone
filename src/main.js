@@ -1,15 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const buttons = document.querySelectorAll('[data-tab-button]');
     const questions = document.querySelectorAll('[data-faq-question]');
-    const gulp = require('gulp');
 
     const heroSection = document.querySelector('.hero');
     const alturaHero = heroSection.clientHeight;
 
-    gulp.task('build', () => {
-        return gulp.src('src/**/*')
-        .pipe(gulp.dest('public'));
-    });
 
     window.addEventListener('scroll', function() {
         const posicaoAtual = window.scrollY;
